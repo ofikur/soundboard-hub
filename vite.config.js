@@ -6,11 +6,10 @@ export default defineConfig({
   plugins: [vue()],
   server: {
     proxy: {
-      // Semua permintaan ke /api akan diteruskan ke target
       '/api': {
-        target: 'https://myinstants-api.vercel.app', // Server API asli
-        changeOrigin: true, // Ini penting untuk konfigurasi proxy
-        rewrite: (path) => path.replace(/^\/api/, ''), // Hapus '/api' dari path
+        target: 'https://myinstants-api.vercel.app',
+        changeOrigin: true,oxy
+        rewrite: (path) => path.replace(/^\/api/, ''),
       },
     }
   }
