@@ -82,6 +82,11 @@ server: {
 
 ---
 
-## 📄 Lisensi
+## 📜 Lisensi
 
-Proyek ini dilisensikan di bawah **Lisensi MIT**.
+Proyek ini dirilis di bawah Lisensi MIT. Lihat file `LICENSE` untuk detail lebih lanjut.
+
+---
+
+### Terima Kasih 
+#### ~ Ofikur R.
