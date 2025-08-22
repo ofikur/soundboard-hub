@@ -35,7 +35,6 @@
 <script setup>
 import { ref } from 'vue';
 import { PlayIcon, InformationCircleIcon, ArrowDownTrayIcon, LinkIcon } from '@heroicons/vue/24/solid';
-// PERUBAHAN DI SINI: Impor fungsi yang baru kita buat
 import { decodeHtmlEntities } from '../utils/formatter.js';
 
 const props = defineProps({
