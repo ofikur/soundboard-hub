@@ -8,7 +8,7 @@ export default defineConfig({
     proxy: {
       '/api': {
         target: 'https://myinstants-api.vercel.app',
-        changeOrigin: true,oxy
+        changeOrigin: true,
         rewrite: (path) => path.replace(/^\/api/, ''),
       },
     }
